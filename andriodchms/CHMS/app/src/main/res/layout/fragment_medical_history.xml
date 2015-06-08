@@ -1,0 +1,296 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    android:background="@drawable/bgd"
+    tools:context="com.iogroup.chms.app.Fragments.UnitSummery">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginBottom="3dp"
+                android:padding="7dp"
+                android:background="@color/item_background"
+                android:alpha=".7"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Chief Complaint"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/item_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/divider_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/CF"
+                    android:textColor="@color/item_black_color"
+                    android:lines="3"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="3dp"
+                android:padding="7dp"
+                android:background="@color/item_background"
+                android:alpha=".7"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="History of Present Illness"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/item_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/divider_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/HOPI"
+                    android:textColor="@color/item_black_color"
+                    android:lines="3"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="3dp"
+                android:padding="7dp"
+                android:background="@color/item_background"
+                android:alpha=".7"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Past Diseases History"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/item_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/divider_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/PDH2"
+                    android:textColor="@color/item_black_color"
+                    android:lines="3"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="3dp"
+                android:padding="7dp"
+                android:background="@color/item_background"
+                android:alpha=".7"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Current Drug Theraphy and Other Addiction"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/item_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/divider_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/CDTAOA2"
+                    android:textColor="@color/item_black_color"
+                    android:lines="3"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="3dp"
+                android:padding="7dp"
+                android:background="@color/item_background"
+                android:alpha=".7"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Allergy to"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/item_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/divider_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/AT2"
+                    android:textColor="@color/item_black_color"
+                    android:lines="3"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="3dp"
+                android:padding="7dp"
+                android:background="@color/item_background"
+                android:alpha=".7"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Family History"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/item_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/divider_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/FH2"
+                    android:textColor="@color/item_black_color"
+                    android:lines="3"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="3dp"
+                android:padding="7dp"
+                android:background="@color/item_background"
+                android:alpha=".7"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="SUMMARY"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/item_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/divider_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/summ2"
+                    android:textColor="@color/item_black_color"
+                    android:lines="3"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="3dp"
+                android:padding="7dp"
+                android:background="@color/item_background"
+                android:alpha=".7"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Primary DX"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/item_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/divider_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/PDX"
+                    android:textColor="@color/item_black_color"
+                    android:lines="3"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/dr_name2"
+                    android:textColor="#999"
+                    android:layout_gravity="center"
+                    android:gravity="left|center_vertical"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:padding="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

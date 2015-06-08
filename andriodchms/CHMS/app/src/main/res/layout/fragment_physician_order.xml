@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iogroup.chms.app.Fragments.PhysicianOrderFragment">
+
+    <ListView
+        android:id="@+id/order_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="3dp"
+        android:padding="3dp"
+        android:background="@drawable/bgd"/>
+
+</FrameLayout>

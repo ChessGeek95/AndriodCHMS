@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:alpha=".7"
+    android:background="@color/item_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/progress_description"
+        android:lines="2"
+        android:textColor="@color/dark_black"
+        android:layout_gravity="center"
+        android:gravity="left|center_vertical"
+        android:lineSpacingExtra="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/progress_dr_name"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="left|center_vertical"
+            android:padding="3dp"
+            android:textColor="@color/light_black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/progress_date"
+            android:singleLine="true"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="right|center_vertical"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:textColor="@color/light_black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

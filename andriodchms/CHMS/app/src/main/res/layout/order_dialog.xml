@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:background="@color/dialog_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/order_description_edt"
+        android:lines="3"
+        android:hint="add your order"
+        android:gravity="left|top"
+        android:textColorHint="#f1f1f1"
+        android:textColor="@color/dialog_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/order_OK"
+            android:text="add"
+            android:layout_weight="1"
+            android:textColor="@color/dialog_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/order_cancel"
+            android:text="cancel"
+            android:layout_weight="1"
+            android:textColor="@color/dialog_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
